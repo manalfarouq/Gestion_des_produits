@@ -2,8 +2,6 @@ import pandas as pd
 
 df = pd.read_csv("Products.csv")
 
-print(df)
-
 
 def update_product(
     product_name: str, new_product_quantity=None, new_product_price=None
@@ -23,7 +21,10 @@ def update_product(
         print(f"Product '{product_name}' not found.")
 
 
-update_product(product_name="Laptop", new_product_quantity=60)
-update_product(product_name="Phone", new_product_price=299.99)
-
-print(df)
+def display_products(df, num_of_lines=5):
+    for index, row in df.iterrows():
+        if num_of_lines is not None and num_of_lines <= index:
+            break
+        print(
+            f"Product {index + 1}: {row['nom_produit']}, Qty: {row['quantite']}, Price: {row['prix_unitaire']}"
+        )
