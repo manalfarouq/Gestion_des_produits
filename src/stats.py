@@ -26,3 +26,4 @@ def get_stats(df):
         "avg_price": avg_price,
         "total_stock": total_stock,
     }
+  
