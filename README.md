@@ -56,11 +56,11 @@ pip install -r requirements.txt
  python main.py
 ```
 
-## 📂 Structure du projet (exemple)
+## 📂 Structure du projet 
 
 ```bash
 gestion-stock/
-│── data/                # Données CSV ou JSON
+│── data/                # Données CSV 
 │── src/                 # Code source
 │   ├── stats.py         # Fonctions statistiques
 │   ├── visualization.py # Fonctions de visualisation
@@ -98,7 +98,7 @@ git push origin feature/ma-fonctionnalite
 
 **5.Créez une Pull Request.**
 
-##📊 Exemples de fonctionnalités prévues
+## 📊 Exemples de fonctionnalités prévues
 
     - Ajout, suppression et mise à jour d’un produit dans le stock.
 
