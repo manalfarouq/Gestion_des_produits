@@ -2,7 +2,7 @@ import matplotlib.pylab as plt
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv("Products.csv")
+df = pd.read_csv("data/Products.csv")
 
 
 def display_pie_chart(df):
