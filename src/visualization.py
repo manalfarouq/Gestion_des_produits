@@ -14,3 +14,12 @@ def display_pie_chart(df):
 
     plt.pie(product_value, labels=products_labels)
     plt.show()
+
+
+def plot_quantite_par_produit(dataframe):
+    plt.figure(figsize=(8, 5))
+    plt.bar(dataframe["nom_produit"], dataframe["quantite"], color="yellow")
+    plt.xlabel("Produits")
+    plt.ylabel("Quantité")
+    plt.title("Quantité par produit")
+    plt.show()

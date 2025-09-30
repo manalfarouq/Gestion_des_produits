@@ -1,6 +1,6 @@
 from stock import update_product, display_products
 from stats import get_stats
-from visualize import display_pie_chart
+from visualization import display_pie_chart
 import pandas as pd
 
 df = pd.read_csv("Products.csv")
