@@ -15,7 +15,7 @@ def update_product(
                 new_product_price
             )
 
-        df.to_csv("Product.csv", index=False)
+        df.to_csv("Products.csv", index=False)
         print(f"Product '{product_name}' successfully added!.")
     else:
         print(f"Product '{product_name}' not found.")
@@ -28,3 +28,6 @@ def display_products(df, num_of_lines=5):
         print(
             f"Product {index + 1}: {row['nom_produit']}, Qty: {row['quantite']}, Price: {row['prix_unitaire']}"
         )
+
+    # to display results as a dataframe (table)
+    # print(df.head(num_of_lines))
