@@ -1,9 +1,51 @@
-nom_produit,quantite,prix_unitaire
-Laptop,10,800.0
-Smartphone,25,500.0
-Clavier,40,20.0
-Souris,35,15.0
-Ecran,12,150.0
-Imprimante,8,120.0
-Casque Audio,20,60.0
-USB Drive,50,10.0
+nom_produit,quantite,prix_unitaire,quantity*price_unit
+Laptop,10,800.0,8000.0
+Smartphone,25,500.0,12500.0
+Clavier,40,20.0,800.0
+Souris,35,15.0,525.0
+Ecran,12,150.0,1800.0
+Imprimante,8,120.0,960.0
+Casque Audio,20,60.0,1200.0
+USB Drive,50,10.0,500.0
+Tablette,18,300.0,5400.0
+Disque Dur Externe,22,90.0,1980.0
+SSD,15,110.0,1650.0
+Carte Graphique,7,400.0,2800.0
+Alimentation PC,9,75.0,675.0
+Boîtier PC,6,95.0,570.0
+Clé HDMI,30,12.0,360.0
+Câble Réseau,45,8.0,360.0
+Routeur WiFi,14,70.0,980.0
+Switch Réseau,11,55.0,605.0
+Webcam,17,45.0,765.0
+Microphone USB,13,85.0,1105.0
+Batterie Externe,27,25.0,675.0
+Projecteur,5,450.0,2250.0
+Serveur NAS,4,600.0,2400.0
+Carte Mère,8,220.0,1760.0
+Processeur,10,280.0,2800.0
+RAM 8GB,20,40.0,800.0
+RAM 16GB,12,70.0,840.0
+Ventilateur PC,25,18.0,450.0
+Station d’Accueil,7,130.0,910.0
+Scanner,6,200.0,1200.0
+Chaise Gaming,9,180.0,1620.0
+Bureau Informatique,4,320.0,1280.0
+Carte Son,8,95.0,760.0
+Disque Blu-ray,14,25.0,350.0
+Logiciel Antivirus,30,15.0,450.0
+Laptop,10,800.0,8000.0
+Smartphone,NaN,500.0,NaN
+Clavier,40,20.0,800.0
+Souris,35,,NaN
+Ecran,12,150.0,1800.0
+Imprimante,-5,120.0,-600.0
+Casque Audio,20,sixty,NaN
+USB Drive,50,10.0,500.0
+Tablette,18,300.0,5400.0
+Disque Dur Externe,22,90.0,1980.0
+SSD,15,NaN,NaN
+Carte Graphique,sept,400.0,NaN
+Alimentation PC,9,75.0,675.0
+Boîtier PC,,95.0,NaN
+Clé HDMI,30,12.0,360.0
