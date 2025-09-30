@@ -14,6 +14,10 @@ L’objectif est également d’adopter une approche professionnelle de gestion 
 - Utilisation de **Jira** pour planifier et suivre les tâches.
 - Respect d’une **structure de fichiers claire et modulaire**.
 
+<div align="center">
+  <img src="./data/bar_chart.png" alt="bar chart"  width="45%">
+  <img src="./data/pie_chart.png" alt="pie chart"  width="45%">
+</div>
 ---
 
 ## 🛠️ Technologies utilisées
@@ -29,8 +33,8 @@ L’objectif est également d’adopter une approche professionnelle de gestion 
 
 1. **Cloner le dépôt :**
    ```bash
-   git clone git@github.com:username/gestion-stock.git
-   cd gestion-stock
+   git clone https://github.com/manalfarouq/Gestion_des_produits.git
+   cd Gestion_des_produits
    ```
 2. **Créer un environnement virtuel (optionnel mais recommandé) :**
 
