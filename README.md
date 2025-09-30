@@ -74,10 +74,10 @@ gestion-stock/
 
 ## 🤝 Contribution
 
-\*\*1. Fork le projet.
+\*\* 1. Fork le projet.
 
 ```bash
-**2.Créez une nouvelle branche :**
+** 2.Créez une nouvelle branche : **
 ```
 
 ```bash
